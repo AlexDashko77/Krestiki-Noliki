@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+
+}
+.main {
+    margin-top: 40px;
+}
+.game {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-size: 56px;
+    padding: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.first__line {
+    display: flex;
+    justify-content: center;
+    gap:2px;
+    margin-bottom: 2px;
+}
+.second__line {
+    display: flex;
+    justify-content: center;
+    gap:2px;
+    margin-bottom: 2px;
+}   
+.third__line {
+    display: flex;
+    justify-content: center;
+    gap:2px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.winner {
+    position: absolute;
+    top:80px;
+    display: inline;
+    color:rgb(5, 5, 5);
+    font-size: 0px;
+    position: absolute;
+    color:white;
+    transition: all 1s;
+}
+.visible {
+    font-size: 50px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.buttonStart {
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+   
+    border-radius: 20px;
+   
+    font-size: 24px;
+    transition: all 0.5s;
+    background: rgb(255, 255, 255);
+    color:black
+}
+.square:hover {
+    background-color: rgb(36, 36, 37);
+}
+.player {
+    display: flex;
+    justify-content: center;
+}
+.player__num {
+    top:80px;
+    font-size: 30px;
+    position: absolute;
+    color:white;
+}
+.buttonStart:hover {
+    background: rgb(71, 71, 71);
+    color:white;
+}
