@@ -112,9 +112,6 @@ function check() {
     else if(square[0].textContent == 'X' && square[4].textContent == 'X' && square[8].textContent == 'X') {
         return "WINNER 1";
     }
-    else if(square[6].textContent == 'X' && square[4].textContent == 'X' && square[7].textContent == 'X') {
-        return "WINNER 1";
-    }
     else if(square[6].textContent == 'X' && square[4].textContent == 'X' && square[2].textContent == 'X') {
         return "WINNER 1";
     }
@@ -137,9 +134,6 @@ function check() {
         return "WINNER 2";
     }
     else if(square[0].textContent == 'O' && square[4].textContent == 'O' && square[8].textContent == 'O') {
-        return "WINNER 2";
-    }
-    else if(square[6].textContent == 'O' && square[4].textContent == 'O' && square[7].textContent == 'O') {
         return "WINNER 2";
     }
     else if(square[6].textContent == 'O' && square[4].textContent == 'O' && square[2].textContent == 'O') {
